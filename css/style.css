@@ -1,7 +1,42 @@
 body {
-  background-color: #333;
+  background-color: #666666;
   font-family: sans-serif;
-  font-size: 10px;
+  font-size: 16px;
+}
+
+.box-size-div {
+  box-sizing: border-box;
+}
+
+.box1 {
+  box-sizing: border-box;
+  border: 1px, solid red;
+  color: #b5b5b5;
+  padding: 20px;
+  width: 420px
+  height: auto
+}
+
+.box2 {
+  box-sizing: border-box;
+  color: #2faffa;
+  border: 1px, solid blue;
+  padding: 30px;
+  height: auto;
+  position: fixed
+}
+
+h1 {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-weight: 500em;
+  font-size: 16px
+}
+
+h3 {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 12px
 }
 
 .container {
@@ -10,6 +45,7 @@ body {
 }
 
 nav {
+  background-color: #000000;
   margin: 0 auto;
   padding: 10px 0 15px 15px;
   position: fixed;

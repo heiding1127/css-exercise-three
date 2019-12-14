@@ -39,7 +39,7 @@ nav {
 }
 
 .location {
-  height: 80px;
+  height: 100%;
 }
 
 .arrow {
@@ -51,7 +51,7 @@ nav {
   background-color: #a5a5a5;
   width: 420px;
   height: 100px;
-  padding: 1%;
+  padding: 5%;
   border: 1px solid black;
 
 }
